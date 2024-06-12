@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pilih Opsi</title>
-    <link rel="stylesheet" href="{{ asset('css/afterlogin.css') }}">
+    <title>Materi</title>
+    <link rel="stylesheet" href="{{ asset('css/materi/preposition.css') }}">
 </head>
 <body>
-    <div class="container">
-        @yield('container')
+    <div class="image-container">
+        @yield('image-container')
     </div>
 </body>
 </html>

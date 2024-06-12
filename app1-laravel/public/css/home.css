@@ -1,9 +1,3 @@
-/* style homepage */
-body, html{
-    margin: 0;
-    padding: 0;
-}
-
 .home {
     display: flex;
     justify-content: center;
@@ -15,38 +9,20 @@ body, html{
     background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
-.home img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.home nav a img{
-    width: 50px;
-    height: 50px;
-    padding: 20px 30px;
-    border: solid burlywood;
-    border-radius: 100px;
-    background-color: rgb(206, 134, 63);
-}
-
-.help a img{
-    top: 10px;
-    left: 90%;
-}
-
-
-.home button{
-    position: absolute;
-    border: solid burlywood;
-    width: 200px;
+.start button{
+    width: 200px; 
     height: 100px;
-    border-radius: 100px;
     background-color: rgb(206, 134, 63);
-    text-align: center;
-    font-size: 40px;
-    cursor: pointer;
+    border-radius: 50px;
+    border: solid rgba(65,79,84,255);
+    cursor: pointer; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgba(65,79,84,255);
+    box-shadow: 0px 10px 0px #414F54; /* Menambahkan bayangan untuk efek timbul */
+    transition: all 0.1s; /* Menambahkan transisi untuk animasi */
+}
+
+.start button:active {
+    transform: translateY(5px); /* Efek menekan tombol */
 }
